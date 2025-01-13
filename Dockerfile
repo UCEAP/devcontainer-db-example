@@ -1,13 +1,13 @@
 FROM ghcr.io/uceap/devcontainer-db:v1.0.0 AS importer
 
 # drupal devcontainers should set these to match
-ENV MYSQL_ROOT_PASSWORD="PASSWORD"
+ENV MYSQL_ROOT_PASSWORD="secret"
 ENV MYSQL_DATABASE="drupal"
 ENV MYSQL_USER="drupal"
-ENV MYSQL_PASSWORD="PASSWORD"
+ENV MYSQL_PASSWORD="password"
 
 # these are just for building
-ENV TERMINUS_SITE="SITENAME"
+ENV TERMINUS_SITE="uceap-website"
 ENV TERMINUS_ENV="dev"
 
 ENV DEBIAN_FRONTEND=noninteractive
