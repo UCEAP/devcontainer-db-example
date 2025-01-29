@@ -1,4 +1,4 @@
-A MariaDB docker image with the UCEAP Drupal Example development seed data baked-in.
+A MariaDB docker image with the UCEAP Drupal Example development seed data baked-in. Forked from https://github.com/UCEAP/devcontainer-db-generic
 
 This needs the TERMINUS_TOKEN secret to be set in order to download the database backup from Pantheon.
 
