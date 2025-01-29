@@ -7,7 +7,7 @@ ENV MYSQL_USER="drupal"
 ENV MYSQL_PASSWORD="password"
 
 # these are just for building
-ENV TERMINUS_SITE="SITENAME"
+ENV TERMINUS_SITE="uceap-example"
 ENV TERMINUS_ENV="dev"
 
 ENV DEBIAN_FRONTEND=noninteractive
